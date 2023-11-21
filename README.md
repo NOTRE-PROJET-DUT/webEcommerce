@@ -36,7 +36,7 @@ Follow these steps to install and run a Lapplication from a GitHub repository:
     ```bash
     php artisan serve
     ```
-    By default, the application will be accessible at `http://127.0.0.1:8000` or `http://127.0.0.1:8000` .
+    By default, the application will be accessible at `http://127.0.0.1:8000` .
 
 1. **Access the Application:**
     Open your web browser and navigate to `http://127.0.0.1:8000` (or the specified address if you changed it). You should see your Laravel application up and running.
