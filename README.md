@@ -44,8 +44,10 @@ Follow these steps to install and run a Lapplication from a GitHub repository:
     These are general steps, and some projects might have additional setup or configuration steps. Always refer to the project's documentation for any specific requirements or instructions.;
 <br>
 <br>
+
+----
 <br>
------
+
 # Conventional Commit Messages 
 
 <br>
