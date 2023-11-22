@@ -12,8 +12,20 @@
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
+
                     @endif
 
+                    @section('content')
+
+                    <x-carousel/>
+
+                    <br/>
+
+                    <div class="container">
+                        <x-product/>
+                    </div>
+
+                    @show
                     {{ __('You are logged in!') }}
                 </div>
             </div>

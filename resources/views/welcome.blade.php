@@ -11,9 +11,6 @@
         <x-categore/>
 </div>
 
-
-<x-footer/>
-
 {{-- <div class="mt-4">
     <!-- Facebook -->
     <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-facebook-f"></i></a>
