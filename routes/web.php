@@ -25,16 +25,19 @@ Route::get('/test', function () {
 // });
 // Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Auth::routes();
 
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-// // Auth::routes();
+// for test
+Route::get('/product', function () {
+    return view('product');
+});
+Route::get('/pv', function () {
+    return view('userPage.viewProducts');
+});
 
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-// // Auth::routes();
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/search', function () {
+    return view('userPage.search');
+});
+Route::view('/test', 'test');
