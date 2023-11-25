@@ -1,7 +1,4 @@
-{{-- page search --}}
-
-
-
+{{-- page product --}}
 
 
 
